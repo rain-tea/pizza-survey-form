@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pizza Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="pizza-survey.css">
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Pizza Survey Form</h1>
+      <p id="description">Please fill out the fields below and click 'Submit' once you're finished!</p>
+      <form id="survey-form">
+        <fieldset id="personal-details">
+          <label id="name-label" for="name" >Name: <input id="name" type="text" placeholder="Yi Long Ma" required />
+          </label>
+          <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="yilongma@hotmail.com" required ></label>
+          <label id="number-label" for="number">Number: <input id="number" type="number" min="1" max="999" placeholder="1-999" required></label>
+        </fieldset>
+          <fieldset id="pizza">
+          <legend id="fav-pizza">What is your favourite type of pizza?</legend>
+          <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Margherita</option>
+            <option value="2">Pepperoni</option>
+            <option value="3">Neapolitan</option>
+            <option value="4">Meat Lovers</option>
+            <option value="5">BBQ Chicken</option>
+            <option value="6">Capricciosa</option>
+            <option value="7">Hawaiian</option>
+            <option value="8">Vegetarian</option>
+            <option value="9">Other</option>
+            <option value="10">I don't eat pizza</option>
+          </select>
+          </fieldset>
+          <fieldset>
+            <legend id="pineapple-on-pizza">Pineapple on Pizza?</legend>
+            <label for="yes-pineapple"><input id="yes-pineapple" type="radio" name="pineapple" class="inline" value="yes" />Yes please!</label>
+            <label for="no-pineapple"><input id="no-pineapple" type="radio" name="pineapple" class="inline" value="no" checked />Absolutely not.</label>
+          </fieldset>
+          <fieldset>
+            <legend>Which toppings would you put on your pizza?</legend>
+            <label><input type="checkbox" value="a" class="inline"/>Ham</label>
+            <label><input type="checkbox" value="b" class="inline"/>Olives</label>
+            <label><input type="checkbox" value="c" class="inline"/>Mushroom</label>
+            <label><input type="checkbox" value="d" class="inline"/>Sausage</label>
+            <label><input type="checkbox" value="e" class="inline"/>Anchovies</label>
+            <label><input type="checkbox" value="f" class="inline"/>Cheese</label>
+            <label><input type="checkbox" value="g" class="inline"/>Bacon</label>
+            <label><input type="checkbox" value="h" class="inline"/>Spinach</label>
+            <label><input type="checkbox" value="i" class="inline"/>Asparagus</label>
+            <label><input type="checkbox" value="j" class="inline"/>Capsicum</label>
+          </fieldset>
+          <label for="comments">Any additional comments?<textarea id="comments"></textarea></label>
+          <input id="submit" type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>

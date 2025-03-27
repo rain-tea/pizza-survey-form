@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/restaurant-mural-wallpaper_23-2148698592.jpg);
+    color: white;
+    font-family: Papyrus, Times New Roman;
+    font-size: 20px
+  }
+  
+  input, textarea {
+    background-color: rgba(110,30,30,0.5);
+    border: 1px solid rgba(110,30,30,0.5);
+    color: white;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 20px;
+    max-width: 600px;
+    min-width: 400px;
+    background-color: rgba(200, 20, 10, 0.8)
+  }
+  
+  fieldset {
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;  
+  }
+  
+  select {
+    width: 100%;
+    margin: 0;
+    background-color: rgba(110,30,30,0.5);
+    color: white;
+    font-size: 16px;
+    font-family: Papyrus, Times New Roman;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  p {
+    padding: 17px;
+    font-size: 19px
+  }
+  
+  label{
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .inline{
+    width: unset;
+    margin: 0 0.8rem 0 0;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    height: 3em;
+    width: 50%;
+    text-align: center;
+    border: 2px solid white;
+    background-color: rgba(60,30,30,0.8);
+  }
+  
+  input[type="submit"]:hover {
+   
+    background-color: rgba(160,60,60,0.8);
+  }
