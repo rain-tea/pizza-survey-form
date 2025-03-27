@@ -1,4 +1,4 @@
-# survey-form
+# pizza-survey-form
 
 This project was made for Certification Project 1 of freeCodeCamp - Responsive Web Design.
 
